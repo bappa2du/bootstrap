@@ -1,0 +1,207 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+
+    <head>
+
+        <title>Using bootstrap</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+
+    <div class="container">
+
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tutorials</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-inverse-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Class</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">BOOTSTRAP</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">JAVA SCRIPT</li>
+                            <li><a href="#">jquery</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-user"></span>
+                                Admin
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Privacy</a></li>
+
+                                <li class="divider"></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <input class="form-control" placeholder="Search" type="text">
+                            <i class="glyphicon glyphicon-search form-control-feedback"></i>
+                        </div>
+
+
+                    </form>
+                <span class="divider"></span>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="jumbotron text-right alert-success">
+            <h1>Iftakharul Alam</h1>
+            <p>Welcome home this is the landing page..</p>
+            <p>Welcome home this is the landing page..</p>
+            <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+
+
+
+        </div>
+
+        <div class="jumbotron alert-success">
+
+            <form class="form-inline bg-success" role="form">
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input class="form-control" type="email" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputPassword2">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Sign in</button>
+            </form>
+
+        </div>
+
+
+
+        <div class="jumbotron alert-warning col-lg-4">
+            <div class="bs-example">
+                <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="img.jpg" alt="image" class="img-rounded ">
+                            <h2>Slide 1</h2>
+
+                            <div class="carousel-caption">
+                                <h3>First slide label</h3>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img.jpg" alt="image">
+                            <h2>Slide 2</h2>
+                            <div class="carousel-caption">
+                                <h3>Second slide label</h3>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img.jpg" alt="image">
+                            <h2>Slide 3</h2>
+                            <div class="carousel-caption">
+                                <h3>Third slide label</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <ul class="list-group navbar-right col-lg-7 row">
+            <li class="list-group-item active">
+                <span class="badge">14</span>
+                Inbox
+            </li>
+            <li class="list-group-item">
+                <span class="badge">2</span>
+                Outbox
+            </li>
+            <li class="list-group-item">
+                <span class="badge">1</span>
+                Spam
+            </li>
+            <li class="list-group-item">
+                <span class="badge">1</span>
+                My Folder
+            </li>
+            <li class="list-group-item">
+                <span class="badge">1</span>
+                Favourites
+            </li>
+        </ul>
+
+
+
+
+
+
+        <span class="clearfix"></span>
+
+        <div class="alert-success text-center alert">
+            &copy; IFTAKHARUL ALAM,2014
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
